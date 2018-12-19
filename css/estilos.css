@@ -1,6 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+body {
+  background: #fff; }
+
+header .redes-sociales {
+  background: rgba(2, 2, 37, 0.91);
+  width: 100%;
+  padding: 10px 0; }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU",
+"mappings": "AAKA,IAAI;EACF,UAAU,EAAE,IAAI;;AAGhB,sBAAe;EACb,UAAU,EAAE,oBAAoB;EAChC,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,MAAM",
 "sources": ["_generales.sass"],
 "names": [],
 "file": "estilos.css"
