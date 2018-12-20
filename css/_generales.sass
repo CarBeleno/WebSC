@@ -1,7 +1,9 @@
-// *
-//   margin: 0
-//   padding: 0
-//   box-sizing: border-box
+@font-face
+  font-family: "Oswald-Bold"
+  src: url("../fonts/Oswald/Oswald-Bold.ttf")
+
+*
+  box-sizing: border-box
 
 body
   background: #fff
@@ -10,4 +12,40 @@ header
   .redes-sociales
     background: rgba(2, 2, 37, 0.91)
     width: 100%
-    padding: 10px 0
+    padding: 5px
+
+    .contenedor
+      display: flex
+
+header a
+  color: rgba(2, 2, 37, 0.91)
+  background: #fff
+  text-align: center
+  width: auto
+  padding: 5px 7px
+  margin: 2px 9px
+  border-radius: 100%
+  display: block
+  font-size: 13px
+
+header .contendor-texto
+  display: flex
+  justify-content: center
+  align-content: center
+
+header .contendor-texto .texto
+  display: inline-block
+  text-align: center
+  line-height: .5
+
+header h3
+  color: #fff
+  margin-bottom: 0
+  font-family: Oswald-Bold
+
+  .fondo-texto
+      background: rgba(16, 16, 31, 0.89)
+
+header h1
+  font-family: Oswald-Bold
+  color: #000
