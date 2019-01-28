@@ -1,61 +1,78 @@
-@font-face
-  font-family: "Oswald-Bold"
-  src: url("../fonts/Oswald-Bold.ttf")
-
-
 *
   box-sizing: border-box
-  margin: 0
-  padding: 0
 
 body
   background: #fff
+  font-family: 'Oswald', sans-serif
 
 header .redes-sociales
-  background: rgba(2, 2, 37, 0.91)
+  background: #020225
   width: 100%
   align-items: center
 
 header .redes-sociales .contenedor
   display: flex
 
+
 header .redes-sociales a
   color: #fff
   text-align: center
-  width: 100px
+  width: 30px
   display: block
-  padding: 20px 20px
-  margin: 10px 10px
+  padding: 5px
+  margin: 5px 13px
+  font-size: 16px
 
+header .redes-sociales .facebook:hover
+  background: #3b5998
+  border-radius: 3px
 
-header .contendor-texto
-  display: flex
-  justify-content: center
-  align-content: center
-  text-decoration: none
+header .redes-sociales .maps:hover
+  background: #bbdaa4
+  border-radius: 3px
 
-header .contendor-texto .texto
-  display: inline-block
-  text-align: center
-  line-height: .5
+header .redes-sociales .diosecis:hover
+  background: #f7931e
+  border-radius: 3px
+
+header .redes-sociales .colegio:hover
+  background: #cc3333
+  border-radius: 3px
 
 header h3
   color: #fff
-  margin-bottom: 0
-  font-family: "Oswald-Bold"
+  font-family: 'Oswald'
+  margin: 30px 5px 0 0
+  text-align: center
 
 header h3 .fondo-texto
   background: rgba(16, 16, 31, 0.89)
 
 header h1
-  font-family: "Oswald-Bold"
   color: #000
+  font-family: 'Oswald'
+  text-align: center
+  margin: 5px 0px 20px 0
 
-.main .contendor
-  overflow: visible
+.main
+  width: 70%
+  background: rgba(2, 2, 37, 0.91)
+  float: left
 
-.main .acerca-de
-  text-align: left
+.contenedor-texto
+  background: url('../img/rosario.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  height: 450px
+  overflow: hidden
 
-.main .acerca-de .foto img
-  width: 100%
+.eucaristias
+  padding: 7px
+  text-align: center
+  background: #524f61
+  color: #ddc9c9
+
+.despacho
+  padding: 10px
+  text-align: center
+  background: #9373c7
