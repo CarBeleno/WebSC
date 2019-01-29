@@ -63,12 +63,33 @@ header h1
   background: rgba(2, 2, 37, 0.91)
   float: left
 
-section .contenedor-texto
-  background: url('../img/rosario.jpg')
+section .contenedor-inicio
+  background: url('../img/rosario.jpg') #020225
   background-repeat: no-repeat
   background-position: center
   height: 450px
   overflow: hidden
+
+.main .contenedor-inicio .menu
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  position: absolute
+  bottom: -10px
+
+.main .contenedor-inicio .menu .opciones
+  width: 23%
+  margin-left: 20px
+
+.main .contenedor-inicio .menu .thumb
+  width: 100%
+  vertical-align: sub
+
+.main .contenedor-inicio .menu .descripcion
+  text-align: center
+  color: #fff
+  font-family: 'Roboto Condensed', bold 700
 
 section .eucaristias
   padding: 7px
@@ -79,8 +100,7 @@ section .eucaristias
 
 div .texto-titulos-h3
   letter-spacing: 3px
-    font-family: 'Roboto Condensed', bold 700
-
+  font-family: 'Roboto Condensed', bold 700
 
 section .despacho
   padding: 7px
