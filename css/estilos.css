@@ -59,26 +59,36 @@ header h1 {
 
 .main {
   width: 65%;
+  max-width: 1000px;
   background: rgba(2, 2, 37, 0.91);
-  float: left; }
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  height: 400px; }
 
-section .contenedor-inicio {
+section .slides-cont {
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  width: 100%; }
 
-section .contenedor-inicio img {
+.slides {
+  display: none; }
+
+section .slides-cont img {
   position: absolute;
   width: 65%;
-  float: left; }
+  float: left;
+  overflow: hidden;
+  height: 452px; }
 
-section .contenedor-inicio .descripcion a {
-  margin: 190px 0;
+section .slides-cont .descripcion a {
+  margin: 150px 0;
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
   display: inline-block;
   text-align: center;
-  padding: 20px 50px;
+  padding: 30px;
   text-decoration: none;
   color: #fff;
   font-size: 30px;
@@ -86,27 +96,33 @@ section .contenedor-inicio .descripcion a {
   font-family: "Roboto Condensed", bold 700;
   position: relative; }
 
-section .eucaristias {
+aside {
+  width: 35%;
+  float: left;
+  overflow: hidden;
+  display: inline-block; }
+
+aside div {
   padding: 8px;
   text-align: center;
-  background: #524f61;
-  color: #f1dede;
   font-family: "Roboto Condensed", sans-serif; }
 
-section .eucaristias p {
+aside .eucaristias {
+  background: #524f61;
+  color: #f1dede; }
+
+aside .eucaristias p {
   line-height: 0.6; }
 
 div .texto-titulos-h3 {
   letter-spacing: 3px;
   font-family: "Roboto Condensed", bold 700; }
 
-section .despacho {
-  padding: 8px;
-  text-align: center;
+aside .despacho {
   background: #6e3bbf;
-  font-family: "Roboto Condensed", sans-serif; }
+  color: #010101; }
 
-section .despacho p {
+aside .despacho p {
   line-height: 0.6; }
 
 /*# sourceMappingURL=estilos.css.map */
