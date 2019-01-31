@@ -42,19 +42,15 @@ header .redes-sociales .colegio:hover {
   background: #cc3333;
   border-radius: 3px; }
 
-header h3 {
-  color: #fff;
-  font-family: "Oswald";
-  margin: 20px 0 5px 0;
-  text-align: center; }
-
-header h3 .fondo-texto {
-  background: rgba(16, 16, 31, 0.89); }
-
-header h1 {
+header .texto {
   color: #000;
   font-family: "Oswald";
-  text-align: center;
+  text-align: center; }
+
+header h3 {
+  margin: 20px 0 5px 0; }
+
+header h1 {
   margin: 5px 0px 10px 0; }
 
 .main {
@@ -124,6 +120,39 @@ aside .despacho {
 
 aside .despacho p {
   line-height: 0.6; }
+
+section .contenidos {
+  background: rgba(25, 18, 79, 0.41);
+  padding: 60px 0; }
+
+.conenidos .contenedor {
+  overflow: hidden; }
+
+.contenidos .contenedor-contenido {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.contenidos .contenedor-contenido .contenido {
+  width: 23%;
+  margin-bottom: 40px; }
+
+.contenidos .contenedor-contenido .contenido .thumb {
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenidos .contenedor-contenido .contenido .thumb img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 100px; }
+
+.contenidos .contenedor-contenido .contenido .descripcion {
+  text-align: center; }
+
+.contenidos .contenedor-contenido .contenido .descripcion .nombre {
+  font-weight: 700;
+  color: #3c3e53; }
 
 @media screen and (max-width: 800px) {
   .main {
