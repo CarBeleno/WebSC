@@ -4,6 +4,9 @@
 body
   background: #fff
   font-family: 'Oswald', sans-serif
+  width: 100%
+
+/*--Encabezado--*/
 
 header .redes-sociales
   background: #020225
@@ -52,9 +55,11 @@ header h3
 
 header h1
   margin: 5px 0px 10px 0
-// ----------------------------------------
+
+/*--slides--*/
+
 .main
-  width: 65%
+  width: 70%
   max-width: 1000px
   background: rgba(2, 2, 37, 0.91)
   float: left
@@ -73,12 +78,11 @@ section .slides-cont
 
 section .slides-cont img
   position: absolute
-  width: 65%
+  width: 70%
   float: left
   overflow: hidden
-  height: 452px
+  height: 449px
   justify-content: space-between
-
 
 section .slides-cont .descripcion a
   margin: 150px 0
@@ -94,12 +98,13 @@ section .slides-cont .descripcion a
   font-family: 'Roboto Condensed', bold 700
   position: relative
 
+/*--Aside--*/
+
 aside
-  width: 35%
+  width: 30%
   float: left
   overflow: hidden
   display: inline-block
-
 
 aside div
   padding: 8px
@@ -123,47 +128,68 @@ aside .despacho
 
 aside .despacho p
   line-height: .6
-// --------------------------------------
-section .contenidos
-  background: rgba(#19124f, 0.41)
-  padding: 60px 0
 
-.conenidos .contenedor
-  overflow: hidden
+/*-- Contenido --*/
+.informacion
+  background: rgba(#d8d5ec, 0.41)
+  width: 100%
 
-.contenidos .contenedor-contenido
+.informacion .contenedor
+  overflow: visible
+
+.informacion .titulo
+  font-size: 34px
+  line-height: 95px
+  font-weight: 100
+  color: #BD5E06
+  text-align: center
+  height: auto !important
+  margin: 0
+
+.informacion .contenedor-informacion
   display: flex
   flex-direction: row
   flex-wrap: wrap
   justify-content: space-between
 
-.contenidos .contenedor-contenido .contenido
+.informacion .contenedor-informacion .apartado
   width: 23%
   margin-bottom: 40px
 
-.contenidos .contenedor-contenido .contenido .thumb
+.informacion .contenedor-informacion .apartado .thumb
   width: 100%
   margin-bottom: 10px
 
-.contenidos .contenedor-contenido .contenido .thumb img
+.informacion .contenedor-informacion .apartado .thumb img
   width: 100%
   vertical-align: top
   border-radius: 10px
 
-.contenidos .contenedor-contenido .contenido .descripcion
+.informacion .contenedor-informacion .apartado .descripcion
   text-align: center
+  line-height: normal
 
-.contenidos .contenedor-contenido .contenido .descripcion .nombre
+.informacion .contenedor-informacion .apartado .descripcion .nombre
   font-weight: 700
   color: #3F467C
+  margin-bottom: 10px
 
+/* --- Pie de pagina --- */
 
+footer
+  width: 100%
+  overflow: hidden
+  background: #4a4465
+  color: #dedede
+  padding: 10px 0
+  text-align: center
+  font-family: 'Roboto Condensed', light-300
+  line-height: .5
+  font-size: 15px
 
+/*--Responsive--*/
 
-
-
-// -------------------------------------------
-@media screen and (max-width: 800px)
+@media only screen and (max-width: 800px)
   .main
     width: 100%
 
@@ -177,4 +203,35 @@ section .contenidos
   .contenidos .contenedor-contenido .contenido
     width: 46%
 
-@media screen and (max-width:800px)
+  // @media screen and (min-width:1620px) and (max-width: 1785px)
+  //
+  // .main
+  //   width: 70%
+  //
+  // aside
+  //   width: 30%
+  //
+  // .contenidos
+  //     width: 94%
+
+
+// //
+// @media screen and (max-width: 1785px)
+//   .main
+//     width: 65%
+//
+//   aside
+//     width: 35%
+//
+//   .contenidos
+//       width: 89%
+//
+// @media screen and (max-width: 1950px)
+//   .main
+//     width: 65%
+//
+//   aside
+//     width: 35%
+//
+//   .contenidos
+//     width: 85%
