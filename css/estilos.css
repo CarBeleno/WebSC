@@ -196,6 +196,10 @@ footer {
     width: 100%; }
 
   .contenidos .contenedor-contenido .contenido {
-    width: 46%; } }
+    width: 46%; }
+
+  .informacion .contenedor-informacion .apartado {
+    width: 100%;
+    font-size: 20px; } }
 
 /*# sourceMappingURL=estilos.css.map */
