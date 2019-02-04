@@ -1,3 +1,5 @@
+/*--- generales ---*/
+
 *
   box-sizing: border-box
 
@@ -5,237 +7,204 @@ body
   background: #fff
   font-family: 'Oswald', sans-serif
   width: 100%
-
-/*--Encabezado--*/
-
-header .redes-sociales
-  background: #020225
-  width: 100%
-  align-items: center
-
-header .redes-sociales .contenedor
-  display: flex
-
-header .redes-sociales a
-  color: #fff
-  text-align: center
-  width: 30px
-  display: block
-  padding: 5px
-  margin: 7px 13px
-  font-size: 16px
-
-div .redes
-  background: #30304c
-  border-radius: 3px
-
-header .redes-sociales .facebook:hover
-  background: #3b5998
-  border-radius: 3px
-
-header .redes-sociales .maps:hover
-  background: #bbdaa4
-  border-radius: 3px
-
-header .redes-sociales .diosecis:hover
-  background: #f7931e
-  border-radius: 3px
-
-header .redes-sociales .colegio:hover
-  background: #cc3333
-  border-radius: 3px
-
-header .texto
-  color: #000
-  font-family: 'Oswald'
-  text-align: center
-
-header h3
-  margin: 20px 0 5px 0
-
-header h1
-  margin: 5px 0px 10px 0
-
-/*--slides--*/
-
-.main
-  width: 70%
-  max-width: 1000px
-  background: rgba(2, 2, 37, 0.91)
-  float: left
-  display: inline-block
-  overflow: hidden
-  height: 400px
-
-section .slides-cont
-  display: flex
-  justify-content: center
-  align-content: center
-  width: 100%
-
-.slides
-  display: none
-
-section .slides-cont img
-  position: absolute
-  width: 70%
-  float: left
-  overflow: hidden
-  height: 449px
-  justify-content: space-between
-
-section .slides-cont .descripcion a
-  margin: 150px 0
-  border: 3px solid rgba(255, 255, 255, 0.5)
-  border-radius: 4px
-  display: inline-block
-  text-align: center
-  padding: 30px
-  text-decoration: none
-  color: #fff
-  font-size: 30px
-  font-style: bold
-  font-family: 'Roboto Condensed', bold 700
-  position: relative
-
-/*--Aside--*/
-
-aside
-  width: 30%
-  float: left
-  overflow: hidden
-  display: inline-block
-
-aside div
-  padding: 8px
-  text-align: center
-  font-family: 'Roboto Condensed', sans-serif
-
-aside .eucaristias
-  background: #524f61
-  color: #f1dede
-
-aside .eucaristias p
-  line-height: .6
-
-div .texto-titulos-h3
-  letter-spacing: 3px
-  font-family: 'Roboto Condensed', bold 700
-
-aside .despacho
-  background: #6e3bbf
-  color: #010101
-
-aside .despacho p
-  line-height: .6
-
-/*-- Contenido --*/
-.informacion
-  background: rgba(#d8d5ec, 0.41)
-  width: 100%
-
-.informacion .contenedor
-  overflow: visible
-
-.informacion .titulo
-  font-size: 34px
-  line-height: 95px
-  font-weight: 100
-  color: #BD5E06
-  text-align: center
-  height: auto !important
-  margin: 0
-
-.informacion .contenedor-informacion
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
-  justify-content: space-between
-
-.informacion .contenedor-informacion .apartado
-  width: 23%
-  margin-bottom: 40px
-
-.informacion .contenedor-informacion .apartado .thumb
-  width: 100%
-  margin-bottom: 10px
-
-.informacion .contenedor-informacion .apartado .thumb img
-  width: 100%
-  vertical-align: top
-  border-radius: 10px
-
-.informacion .contenedor-informacion .apartado .descripcion
-  text-align: center
-  line-height: normal
-
-.informacion .contenedor-informacion .apartado .descripcion .nombre
-  font-weight: 700
-  color: #3F467C
-  margin-bottom: 10px
-
-/* --- Pie de pagina --- */
-
-footer
-  width: 100%
-  overflow: hidden
-  background: #4a4465
-  color: #dedede
-  padding: 10px 0
-  text-align: center
-  font-family: 'Roboto Condensed', light-300
-  line-height: .5
-  font-size: 15px
-
-/*--Responsive--*/
-
-@media only screen and (max-width: 800px)
-  .main
-    width: 100%
-
-  section .slides-cont img
-    width: 100%
-    height: 400px
-
-  aside
-    width: 100%
-
-  .contenidos .contenedor-contenido .contenido
-    width: 46%
-
-  .informacion .contenedor-informacion .apartado
-    width: 100%
-    font-size: 20px
-
-  // @media screen and (min-width:1620px) and (max-width: 1785px)
-  //
-  // .main
-  //   width: 70%
-  //
-  // aside
-  //   width: 30%
-  //
-  // .contenidos
-  //     width: 94%
-
-
+//
+// /*--Encabezado--*/
 // //
-// @media screen and (max-width: 1785px)
-//   .main
-//     width: 65%
+// // header .redes-sociales
+// //   background: #020225
+// //   width: 100%
+// //   align-items: center
+// //
+// // header .redes-sociales .contenedor
+// //   display: flex
+// //
+// // header .redes-sociales a
+// //   color: #fff
+// //   text-align: center
+// //   width: 30px
+// //   display: block
+// //   padding: 5px
+// //   margin: 7px 13px
+// //   font-size: 16px
+// //
+// // div .redes
+// //   background: #30304c
+// //   border-radius: 3px
+// //
+// // header .redes-sociales .facebook:hover
+// //   background: #3b5998
+// //   border-radius: 3px
+// //
+// // header .redes-sociales .maps:hover
+// //   background: #bbdaa4
+// //   border-radius: 3px
+// //
+// // header .redes-sociales .diosecis:hover
+// //   background: #f7931e
+// //   border-radius: 3px
+// //
+// // header .redes-sociales .colegio:hover
+// //   background: #cc3333
+// //   border-radius: 3px
+// //
+// // header .texto
+// //   color: #000
+// //   font-family: 'Oswald'
+// //   text-align: center
+// //
+// // header h3
+// //   margin: 20px 0 5px 0
+// //
+// // header h1
+// //   margin: 5px 0px 10px 0
+// //
+// // // /*--slides--*/
+// // //
+// // .main
+// //   width: 70%
+// //   max-width: 1000px
+// //   background: rgba(2, 2, 37, 0.91)
+// //   float: left
+// //   display: inline-block
+// //   overflow: hidden
+// //   height: 400px
+// //
+// // section .slides-cont
+// //   display: flex
+// //   justify-content: center
+// //   align-content: center
+// //   width: 100%
+// //
+// // .slides
+// //   display: none
+// //
+// // section .slides-cont img
+// //   position: absolute
+// //   width: 70%
+// //   float: left
+// //   overflow: hidden
+// //   height: 449px
+// //   justify-content: space-between
+// //
+// // section .slides-cont .descripcion a
+// //   margin: 150px 0
+// //   border: 3px solid rgba(255, 255, 255, 0.5)
+// //   border-radius: 4px
+// //   display: inline-block
+// //   text-align: center
+// //   padding: 30px
+// //   text-decoration: none
+// //   color: #fff
+// //   font-size: 30px
+// //   font-style: bold
+// //   font-family: 'Roboto Condensed', bold 700
+// //   position: relative
+// // //
+// // // /*--Aside--*/
+// // //
+// // aside
+// //   width: 30%
+// //   float: left
+// //   overflow: hidden
+// //   display: inline-block
+// //
+// // aside div
+// //   padding: 8px
+// //   text-align: center
+// //   font-family: 'Roboto Condensed', sans-serif
+// //
+// // aside .eucaristias
+// //   background: #524f61
+// //   color: #f1dede
+// //
+// // aside .eucaristias p
+// //   line-height: .6
+// //
+// // div .texto-titulos-h3
+// //   letter-spacing: 3px
+// //   font-family: 'Roboto Condensed', bold 700
+// //
+// // aside .despacho
+// //   background: #6e3bbf
+// //   color: #010101
+// //
+// // aside .despacho p
+// //   line-height: .6
 //
-//   aside
-//     width: 35%
+// /*-- Contenido --*/
+// // .informacion
+// //   background: rgba(#d8d5ec, 0.41)
+// //   width: 100%
+// //
+// // .informacion .contenedor
+// //   overflow: visible
+// //
+// // .informacion .titulo
+// //   font-size: 34px
+// //   line-height: 95px
+// //   font-weight: 100
+// //   color: #BD5E06
+// //   text-align: center
+// //   height: auto !important
+// //   margin: 0
+// //
+// // .informacion .contenedor-informacion
+// //   display: flex
+// //   flex-direction: row
+// //   flex-wrap: wrap
+// //   justify-content: space-between
+// //
+// // .informacion .contenedor-informacion .apartado
+// //   width: 23%
+// //   margin-bottom: 40px
+// //
+// // .informacion .contenedor-informacion .apartado .thumb
+// //   width: 100%
+// //   margin-bottom: 10px
+// //
+// // .informacion .contenedor-informacion .apartado .thumb img
+// //   width: 100%
+// //   vertical-align: top
+// //   border-radius: 10px
+// //
+// // .informacion .contenedor-informacion .apartado .descripcion
+// //   text-align: center
+// //   line-height: normal
+// //
+// // .informacion .contenedor-informacion .apartado .descripcion .nombre
+// //   font-weight: 700
+// //   color: #3F467C
+// //   margin-bottom: 10px
 //
-//   .contenidos
-//       width: 89%
+// /* --- Pie de pagina --- */
 //
-// @media screen and (max-width: 1950px)
-//   .main
-//     width: 65%
+// // footer
+// //   width: 100%
+// //   overflow: hidden
+// //   background: #4a4465
+// //   color: #dedede
+// //   padding: 10px 0
+// //   text-align: center
+// //   font-family: 'Roboto Condensed', light-300
+// //   line-height: .5
+// //   font-size: 15px
 //
-//   aside
-//     width: 35%
-//
-//   .contenidos
-//     width: 85%
+// /*--Responsive--*/
+// //
+// // @media only screen and (max-width: 800px)
+// //   .main
+// //     width: 100%
+// //
+// //   section .slides-cont img
+// //     width: 100%
+// //     height: 400px
+// //
+// //   aside
+// //     width: 100%
+// //
+// //   .contenidos .contenedor-contenido .contenido
+// //     width: 46%
+// //
+// //   .informacion .contenedor-informacion .apartado
+// //     width: 100%
+// //     font-size: 20px

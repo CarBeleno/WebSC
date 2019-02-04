@@ -1,3 +1,4 @@
+/*--- generales --- */
 * {
   box-sizing: border-box; }
 
@@ -6,7 +7,7 @@ body {
   font-family: "Oswald", sans-serif;
   width: 100%; }
 
-/*--Encabezado-- */
+/*--- encabezado --- */
 header .redes-sociales {
   background: #020225;
   width: 100%;
@@ -55,7 +56,7 @@ header h3 {
 header h1 {
   margin: 5px 0px 10px 0; }
 
-/*--slides-- */
+/*--- slides --- */
 .main {
   width: 70%;
   max-width: 1000px;
@@ -96,7 +97,7 @@ section .slides-cont .descripcion a {
   font-family: "Roboto Condensed", bold 700;
   position: relative; }
 
-/*--Aside-- */
+/*--- aside --- */
 aside {
   width: 30%;
   float: left;
@@ -126,7 +127,7 @@ aside .despacho {
 aside .despacho p {
   line-height: 0.6; }
 
-/*-- Contenido -- */
+/*--- contenido --- */
 .informacion {
   background: rgba(216, 213, 236, 0.41);
   width: 100%; }
@@ -171,7 +172,7 @@ aside .despacho p {
   color: #3F467C;
   margin-bottom: 10px; }
 
-/* --- Pie de pagina --- */
+/*--- footer --- */
 footer {
   width: 100%;
   overflow: hidden;
@@ -181,10 +182,10 @@ footer {
   text-align: center;
   font-family: "Roboto Condensed", light-300;
   line-height: 0.5;
-  font-size: 15px; }
+  font-size: 1em; }
 
-/*--Responsive-- */
-@media only screen and (max-width: 800px) {
+/*--- mediaqueries --- */
+@media screen and (max-width: 800px) {
   .main {
     width: 100%; }
 
@@ -192,14 +193,17 @@ footer {
     width: 100%;
     height: 400px; }
 
+  .slides-cont {
+    width: 100%; }
+
   aside {
     width: 100%; }
 
-  .contenidos .contenedor-contenido .contenido {
-    width: 46%; }
-
-  .informacion .contenedor-informacion .apartado {
+  .informacion .contenedor .contenedor-informacion .apartado {
     width: 100%;
     font-size: 20px; } }
+@media screen and (max-width: 477px) {
+  footer {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=estilos.css.map */
