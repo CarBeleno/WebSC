@@ -1,9 +1,10 @@
 /*--- encabezado ---*/
-
 header .redes-sociales
   background: #020225
   width: 100%
   align-items: center
+  position: fixed
+  z-index: 100
 
 header .redes-sociales .contenedor
   display: flex
@@ -19,6 +20,14 @@ header .redes-sociales a
 
 div .redes
   background: #30304c
+  border-radius: 3px
+
+header .redes-sociales .inicio
+  background: #58C01C
+  border-radius: 3px
+
+header .redes-sociales .inicio:hover
+  background: rgba(88, 193, 28, .8)
   border-radius: 3px
 
 header .redes-sociales .facebook:hover
@@ -41,9 +50,11 @@ header .texto
   color: #000
   font-family: 'Oswald'
   text-align: center
+  overflow: hidden
+  padding-top: 35px
 
 header h3
   margin: 20px 0 5px 0
 
 header h1
-  margin: 5px 0px 10px 0
+  margin: 5px 0px 5px 0

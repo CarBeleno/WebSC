@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no,
   	 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <!-- Refrech -->
     <meta http-equiv="Cache-Control" content="no-cache" />
     <title>El Santo Cristo</title>
     <!-- Fuente o Tipo de letra -->
@@ -16,7 +17,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Hoja de estilos -->
   	<link rel="stylesheet" href="css/estilos.css">
-
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <!-- Encabezado -->
@@ -31,7 +34,7 @@
       </div>
       <div class="contendor-texto">
         <div class="texto">
-          <h3><span class="fondo-texto">PARROQUIA</span></h3>
+          <h3>PARROQUIA</h3>
           <h1>EL SANTO CRISTO</h1>
         </div>
       </div>
@@ -76,24 +79,23 @@
       </aside>
 
     <!-- Conenido -->
-
       <section class="informacion">
         <div class="contenedor">
           <h3 class="titulo">SOBRE LA PARROQUIA...</h3>
-          <!--Enlace--><a id="abajo"></a>
+          <!-- Enlace --><a id="abajo"></a>
           <div class="contenedor-informacion">
-            <!-- Grupos parroquiales -->
-            <div class="apartado">
+            <!-- Grupos Parroquiales -->
+            <a class="apartado grupos" href="grupos.html">
               <div class="thumb">
                 <img src="img/grupo.jpg" alt="">
               </div>
               <div class="descripcion">
                 <p class="nombre">GRUPOS PARROQUIALES</p>
-                <p >Puedes hacer parte de un grupo parroquial, consulta aqui cuales son y que horarios tienen.</p>
+                <p>Puedes hacer parte de un grupo parroquial, consulta aqui cuales son y que horarios tienen.</p>
               </div>
-             </div>
+            </a>
              <!-- los sacramentos -->
-             <div class="apartado">
+             <a class="apartado sacramentos">
                <div class="thumb">
                  <img src="img/sacramentos.jpg" alt="">
                </div>
@@ -101,9 +103,9 @@
                  <p class="nombre">LOS SACRAMENTOS</p>
                  <p >Aqui sabras que son los sacaramentos, cuales son y los requisitos de cada uno.</p>
                </div>
-              </div>
+             </a>
               <!-- Avisos parroquiales -->
-              <div class="apartado">
+              <a class="apartado avisos">
                 <div class="thumb">
                   <img src="img/avisos.jpg" alt="">
                 </div>
@@ -111,20 +113,19 @@
                   <p class="nombre">AVISOS PARROQUIALES</p>
                   <p>En esta sección esta las actividades y noticias de la parroquia.</p>
                 </div>
-               </div>
+              </a>
 
           </div>
         </div>
       </section>
 
     <footer>
-      <p>Parroquia El Santo Cristo de Fontibón</p>
-      <p>Telefóno: (57) (1) 4156652</p>
+      <p>Parroquia El Santo Cristo - Diocesis de Fontibón</p>
+      <p>Telefóno: (57) (1) 4742222</p>
       <p>Carrera 109 # 23B-5, Internacional Fontibón, Bogotá, Colombia</p>
       <p>© 2018-<script>document.write(new Date().getFullYear());</script> | Todos los derechos reservados</p>
       <p>Desarrollado por Carolina Bareño</p>
     </footer>
-
     <script src="js/diapositivas.js"></script>
   </body>
 </html>
